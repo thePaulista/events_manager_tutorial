@@ -149,3 +149,5 @@ end
 # to display just the headers
 # contents = CSV.readlines "event_attendees.csv"
 # puts contents[0]
+contents = CSV.readline "event_attendees.csv"
+print contents

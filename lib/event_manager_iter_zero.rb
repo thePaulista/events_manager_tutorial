@@ -48,11 +48,12 @@ puts "EventManager initialized"
 lines = File.readlines "event_attendees.csv"
 row_index = 0
 lines.each do |line|
-    puts row_index = row_index + 1
-    next if row_index == 1
-    columns = line.split(",")
-    name = columns[2]
-    puts name
+  puts line
+    # puts row_index = row_index + 1
+    # next if row_index == 1
+    # columns = line.split(",")
+    # name = columns[2]
+    # puts name
   end
 
 # using Array#eachwithindex instead
@@ -90,3 +91,15 @@ end
 # Shannon
 # Nash
 # Amanda
+puts "EventManager initialized"
+
+lines = File.readlines "event_attendees.csv"
+row_index = 0
+lines.each do |line|
+  puts line
+    # puts row_index = row_index + 1
+    # next if row_index == 1
+    # columns = line.split(",")
+    # name = columns[2]
+    # puts name
+  end
